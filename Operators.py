@@ -54,3 +54,23 @@ print(can_mark_voting) # True
 # True                   False              True
 # False                  True               True
 # False                  False              False
+
+n1 = int(input("Enter a number:\t "))
+n2 = int(input("Enter another number:\t "))
+print(n1)
+print(type(n1))
+print(n1>n2)
+
+print(bool(False))
+print(bool(True))
+print(bool(0))
+print(bool(1))
+print(bool(1000))
+print(bool(-1))
+print(bool("Hello"))
+print(bool(""))
+print(bool([]))
+print(bool([1,2,3]))
+print(bool("hello" and "world"))
+print(bool(0 and "hello"))
+print(bool([1] or "world"))
