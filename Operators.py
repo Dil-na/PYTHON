@@ -55,11 +55,11 @@ print(can_mark_voting) # True
 # False                  True               True
 # False                  False              False
 
-n1 = int(input("Enter a number:\t "))
-n2 = int(input("Enter another number:\t "))
-print(n1)
-print(type(n1))
-print(n1>n2)
+# n1 = int(input("Enter a number:\t "))
+# n2 = int(input("Enter another number:\t "))
+# print(n1)
+# print(type(n1))
+# print(n1>n2)
 
 print(bool(False))
 print(bool(True))
@@ -74,3 +74,20 @@ print(bool([1,2,3]))
 print(bool("hello" and "world"))
 print(bool(0 and "hello"))
 print(bool([1] or "world"))
+
+print("Python" in "Python Programming")
+print("Javascript" in "Python Programming")
+print("Javascript" not in "Python Programming")
+print("Python" not in "Python Programming")
+
+a = [1, 2, 3, 4, 5]
+b = [1, 2, 3, 4, 5]
+print(a==b)
+print(a is b)
+m = 1
+n = 1
+print(m is n)
+print(id(m))
+print(id(n))
+print(id(a))
+print(id(b))
