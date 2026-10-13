@@ -70,3 +70,48 @@ if age >=18:
         print("Admisssion rejected: insufficient marks.")
 else:
     print("Admission rejected: insufficient age")
+
+
+    day = input ('Enter the number of the day :')
+    match day:
+        case "1":
+            print('Monday')
+        case "2":
+            print('Tuesday')
+        case "3":
+            print('Wednesday')
+        case "4":
+            print('Thursday')
+        case "5":
+            print('Friday')
+        case "6":
+            print('Saturday')
+        case "7":
+            print('Sunday')
+        case _:
+            print("Invalid entry")
+
+age = int(input('Enter age:'))
+match age>=18:
+    case True:
+        print('Adult')
+    case False:
+        print("Child")
+
+day ="Wednesday"
+match day:
+    case "Monday" | "Tuesday" | "Wednesdsay" | "Thursday"  | "Friday":
+        print("weekday")
+    case "Saturday"  | "Sunday":
+        print("weekend")
+    case _:
+         print("Invalid")
+
+result = "Adult" if age>=18 else "child"
+print(result)
+
+# TrueExpression if codition else FalseExpression 
+
+n = 56
+even_or_odd = "Even" if n%2==0 else "odd"
+print(even_or_odd)
