@@ -35,3 +35,10 @@
 # print(movie_set_1.symmetric_difference_update(movie_set_2))
 # print(movie_set_1)
 
+numbers = {1,2,45,78,93,65,10.2}
+even_numbers = {2,78,96,10,2}
+
+print(numbers.issuperset(even_numbers))
+print(even_numbers.issubset(numbers))
+print(numbers.isdisjoint(even_numbers))
+print({1,5,7}.isdisjoint({2,8,10}))
