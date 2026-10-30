@@ -1,1 +1,0 @@
-print(set(["python","mern","python","ds","ds","python"]))
